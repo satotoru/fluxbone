@@ -1,0 +1,21 @@
+{
+  "name": "fluxbone",
+  "version": "0.1.0",
+  "description": "redux like extension for Backbone",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "tslint ts/*.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "satotoru",
+  "license": "ISC",
+  "dependencies": {
+    "@types/backbone": "^1.3.33",
+    "backbone": "^1.3.3"
+  },
+  "devDependencies": {
+    "tslint": "^4.2.0",
+    "typescript": "^2.1.4"
+  }
+}
