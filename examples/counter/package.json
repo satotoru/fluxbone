@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server index.js --port 10180"
+  },
+  "dependencies": {
+    "fluxbone": "git+https://github.com/satotoru/fluxbone.git",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
